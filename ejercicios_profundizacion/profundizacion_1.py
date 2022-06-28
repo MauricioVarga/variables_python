@@ -17,6 +17,7 @@
 Enunciado:
 Realice un calculadora, se ingresará por línea de comando dos
 números reales y se deberá calcular todas las operaciones entre ellos:
+
 A) Suma
 B) Resta
 C) Multiplicación
@@ -30,4 +31,18 @@ E) Exponente/Potencia
 '''
 
 print('¡Nuestra primera calculadora!')
-# Empezar aquí la resolución del ejercicio
+#Empezar aquí la resolución del ejercicio
+
+Numero_1 = int(input())
+Numero_2 = int(input())
+
+suma= Numero_1 + Numero_2
+print('La suma entre',Numero_1,'y',Numero_2, 'es',suma)
+resta= Numero_1 - Numero_2
+print('El resultado de restarle',Numero_2,'a',Numero_1, 'es',resta)
+multiplicacion = Numero_1 * Numero_2
+print('El resultado de multiplicar',Numero_1,'con',Numero_2, 'es',multiplicacion)
+división = Numero_1 * Numero_2
+print('El resultado de dividir',Numero_1,'entre',Numero_2, 'es',división)
+potencia = Numero_1 ** Numero_2
+print('La potencia de',Numero_1,'con exponente',Numero_2, 'es',potencia)
